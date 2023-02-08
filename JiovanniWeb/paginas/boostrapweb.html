@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentacion Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <style>
+    .divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .container {
+      border-radius: 15px;
+      background-color: #c98860;
+      box-shadow: 10px 10px rgb(165, 104, 42);
+    }
+
+    body {
+      background-image: linear-gradient(135deg, #efcead, #efcead, #eca259, #efcead, #eca259, #efcead, #efcead);
+      background-size: 500%;
+      animation: animacion-fondo 10s infinite;
+    }
+
+    @keyframes animacion-fondo {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100%, 50%;
+      }
+
+      100% {
+        background-position: 0%, 50%;
+      }
+    }
+
+     h1 {
+      animation: h1 5s infinite;
+      transform: translate(-100px, -20px);
+      opacity: 0;
+    }
+
+    @keyframes h1 {
+      20% {
+        transform: translate(0px, -20px);
+        opacity: 1;
+      }
+
+      80% {
+        transform: translate(0px, -20px);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translate(100px, -20px);
+        opacity: 0;
+      }
+    }
+    h2 {
+    animation: nombre 10s infinite;
+    transform: translateY(-100px);
+    opacity: 0;
+}
+@keyframes nombre {
+    20%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    80%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <div class="container ">
+      <div class="row justify-content-center align-items-center  my-5 ">
+        <div class="col-8 col-sm-6 col-md-4 col-lg-4 ">
+          <img src="../imagenes/perfil.jpg" class="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" width="250px"
+            height="300px" loading="lazy"
+            style=" border-radius: 15px; border: 6px solid #8e5431; transform: scale(1.2);">
+        </div>
+        <div class="col-lg-6 ">
+          <h2 class="display-4 fw-bold mb-3 text-center mt-5" style="color: #f3e3d3;
+          background-color: #8e5431; border-radius: 15px;">Jiovanni Emmanuel Martinez Uribe</h1>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <div class=" my-5 text-center">
+        <h1 class="display-5 fw-bold my-5 pb-1" style="color: #f3e3d3;
+        background-color: #8e5431; border-radius: 15px;">Pagina creada con</h1>
+        <div class="col-lg-11 mx-auto">
+          <p class="lead p-4 display-6 " style="color: #f3e3d3;
+          background-color: #8e5431; border-radius: 15px; "> Boostrap <br>
+          <a class="fw-bold text-decoration-none"style="color: #8e5431; background-color: #f3e3d3; border-radius: 15px;"href="../index.html">Ir a pagina Creada con Grid + Flexbox Manual</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <div class=" my-5 text-center">
+        <h1 class="display-5 fw-bold my-5 " style="color: #f3e3d3;
+        background-color: #8e5431; border-radius: 15px;">Sobre mi</h1>
+        <div class="col-lg-11 mx-auto">
+          <p class="lead mb-4 display-6" style="color: #f3e3d3;
+          background-color: #8e5431; border-radius: 15px; ">Soy un joven Mexicano de 23 años con una pasion muy grande
+            por la programacion,
+            Actualmente
+            estudiando
+            la Universidad Ingeneria en Redes Computacionales y una Carrera Fullstacks en CoderHouse, tengo
+            una
+            habilidad para adquirir nuevos conocimientos facilmente, mi metodologia que se basa en practicar
+            todo el tiempo y aprender a prueba y error, me ha ayudado a poder destacar en mis zonas de
+            estudio.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <div class="my-5 text-center">
+        <h1 class="display-5 fw-bold my-5" style="color: #f3e3d3;
+        background-color: #8e5431; border-radius: 15px;">Habilidades</h1>
+        <div class="col-12 justify-content-around ">
+          <img src="../imagenes/HTML5.png" alt="logos_habilidades" width="250px" height="auto">
+          <img src="../imagenes/CSS3.png" alt="logos_habilidades" width="250px" height="auto">
+          <img src="../imagenes/github.png" alt="logos_habilidades" width="250px" height="auto">
+          <img src="../imagenes/boostrap.png" alt="logos_habilidades" width="250px" height="auto">
+          <img src="../imagenes/sass.png" alt="logos_habilidades" width="250px" height="auto">
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <div class=" my-5 text-center">
+        <h1 class="display-5 fw-bold my-5" style="color: #f3e3d3;
+          background-color: #8e5431; border-radius: 15px;">Portafolio</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url(../imagenes/kingsmanweb.jpg); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  Kingsman: Practica de Box Modeling, 2023.</h3>
+                <h3 class=" display-8 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  (No disponible)</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="..//imagenes/logo192x192.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url(../imagenes/kingsmanweb.jpg); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  Kingsman: Practica de Box Modeling, 2023.</h3>
+                <h3 class=" display-8 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  (No disponible)</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="..//imagenes/logo192x192.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url(../imagenes/kingsmanweb.jpg); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 display-7 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  Kingsman: Practica de Box Modeling, 2023.</h3>
+                <h3 class=" display-8 lh-1 fw-bold" style="background-color: rgba(0, 0, 0, 0.571);">
+                  (No disponible)</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="..//imagenes/logo192x192.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container my-5 text-center" id="icon-grid">
+      <h1 class="display-5 fw-bold  my-5" style="color: #f3e3d3;
+        background-color: #8e5431; border-radius: 15px;">Estudios</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-center justify-content-center">
+          <div style="color: #f3e3d3;
+            background-color: #8e5431; border-radius: 15px;">
+            <h3 class="fw-bold mb-0 fs-4">Curso Ofimatica</h3>
+            <p>Instituto Tecnologico CCPM, 2016.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center ">
+          <div style="color: #f3e3d3;
+            background-color: #8e5431; border-radius: 15px;">
+            <h3 class="fw-bold mb-0 fs-4">Carrera Tecnica en Diseño Grafico Digital</h3>
+            <p>Preparatoria Colegio de Estudios Científicos y Tecnológicos del Estado de México, 2015-2018.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div style="color: #f3e3d3;
+            background-color: #8e5431; border-radius: 15px;">
+            <h3 class="fw-bold mb-0 fs-4">Ingenieria en Redes Computacionales</h3>
+            <p>Universidad Estudios Tecnológicos y Avanzados para la Comunidad (Cursando), 2021-2023.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center ">
+          <div style="color: #f3e3d3;
+            background-color: #8e5431; border-radius: 15px;">
+            <h3 class="fw-bold mb-0 fs-4">Carrera FullStacks</h3>
+            <p>CoderHouse (Cursando Desarrollo Web), 2023.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; Kingsman, 2023.</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/" target="_blank"><img
+                src="../imagenes/facebook.png" width="50" height="50" alt=""></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/" target="_blank"><img
+                src="../imagenes/instagram.png" width="50" height="50" alt=""></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://twitter.com/" target="_blank"><img
+                src="../imagenes/twitter.png" width="50" height="50" alt=""></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://web.whatsapp.com/" target="_blank"><img
+                src="../imagenes/whatsapp.png" width="50" height="50" alt=""></a></li>
+        </ul>
+      </footer>
+    </div>
+
+  </main>
+</body>
+
+</html>
